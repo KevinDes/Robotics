@@ -1,0 +1,22 @@
+\BOOKMARK [1][-]{section*.1}{Contents}{}% 1
+\BOOKMARK [1][-]{section*.2}{Robotic Arm field}{}% 2
+\BOOKMARK [1][-]{section*.3}{PhantomX Pincher Robot Arm Overview}{}% 3
+\BOOKMARK [2][-]{section*.4}{Context}{section*.3}% 4
+\BOOKMARK [2][-]{section*.5}{Specifications}{section*.3}% 5
+\BOOKMARK [2][-]{section*.6}{Aim}{section*.3}% 6
+\BOOKMARK [2][-]{section*.7}{Our opinion}{section*.3}% 7
+\BOOKMARK [1][-]{section*.8}{'Robot-Kit'}{}% 8
+\BOOKMARK [2][-]{section*.9}{Arm design}{section*.8}% 9
+\BOOKMARK [2][-]{section*.10}{Kit Overview}{section*.8}% 10
+\BOOKMARK [2][-]{section*.11}{Kit Overview}{section*.8}% 11
+\BOOKMARK [2][-]{section*.12}{How to?}{section*.8}% 12
+\BOOKMARK [3][-]{section*.13}{Defining the working environment}{section*.12}% 13
+\BOOKMARK [3][-]{section*.14}{Performing the preliminary tasks}{section*.12}% 14
+\BOOKMARK [3][-]{section*.15}{Software installation}{section*.12}% 15
+\BOOKMARK [3][-]{section*.16}{Assembly}{section*.12}% 16
+\BOOKMARK [3][-]{section*.17}{Debugging using Arduino}{section*.12}% 17
+\BOOKMARK [2][-]{section*.18}{Challenges encountered}{section*.8}% 18
+\BOOKMARK [1][-]{section*.19}{ROSification}{}% 19
+\BOOKMARK [1][-]{section*.20}{Future plan}{}% 20
+\BOOKMARK [1][-]{section*.21}{Conclusion}{}% 21
+\BOOKMARK [1][-]{section*.22}{Bibliography}{}% 22

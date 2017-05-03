@@ -1,0 +1,14 @@
+<launch>
+    <!-- Will use the launch File for the joystick-->
+    <include file="$(find turtlebot_teleop)/launch/logitech.launch"/>
+    
+    <!-- Create a Node instance joy_Node -->
+    <node pkg="joy" type="joy_node" name="turtle_joy" >
+        <!-- Setting specific parameters of the instance-->
+        <param name="deadzone" value="0.12" />
+        <param name="autorepeat_rate" value="2" />
+    </node>
+    
+    <!-- Create a Node instance according to a Script File. the Args are use to redirect the publication to the /cdm-topic to another topic (cmd not wortking on real robot)-->
+    <node name="Joy2twist" pkg="joy2twist" type="NewJoy2Twist.py" args="cmd_vel:=cmd_vel_mux/input/teleop" />
+</launch>	

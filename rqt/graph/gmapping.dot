@@ -1,0 +1,563 @@
+digraph graphname {
+	graph [bb="0,0,1045,1245",
+		compound=True,
+		rank=same,
+		rankdir=LR,
+		ranksep=0.2
+	];
+	node [label="\N"];
+	subgraph cluster_turtle2 {
+		graph [bb="381,8,487,83",
+			compound=True,
+			label=turtle2,
+			lheight=0.21,
+			lp="434,71.5",
+			lwidth=0.50,
+			rank=same,
+			rankdir=LR,
+			ranksep=0.2,
+			style=bold
+		];
+		t__turtle2_status		 [URL=topic_3A_turtle2_status,
+			height=0.5,
+			label="/turtle2/status",
+			pos="434,34",
+			shape=box,
+			width=1.25];
+	}
+	subgraph cluster_mobile_base_nodelet_manager {
+		graph [bb="36,614,566,689",
+			compound=True,
+			label=mobile_base_nodelet_manager,
+			lheight=0.21,
+			lp="301,677.5",
+			lwidth=2.36,
+			rank=same,
+			rankdir=LR,
+			ranksep=0.2,
+			style=bold
+		];
+		t__mobile_base_nodelet_manager_bond		 [URL=topic_3A_mobile_base_nodelet_manager_bond,
+			height=0.5,
+			label="/mobile_base_nodelet_manager/bond",
+			pos="155,640",
+			shape=box,
+			width=3.0694];
+		n__mobile_base_nodelet_manager		 [URL=_mobile_base_nodelet_manager,
+			height=0.5,
+			label="/mobile_base_nodelet_manager",
+			pos="434,640",
+			shape=ellipse,
+			width=3.4303];
+		t__mobile_base_nodelet_manager_bond -> n__mobile_base_nodelet_manager		 [penwidth=1,
+			pos="e,319.17,633.35 265.88,633.38 279.97,633.25 294.49,633.22 308.8,633.28"];
+		n__mobile_base_nodelet_manager -> t__mobile_base_nodelet_manager_bond		 [penwidth=1,
+			pos="e,265.88,646.62 319.17,646.65 305,646.77 290.47,646.78 276.21,646.7"];
+	}
+	subgraph cluster_mobile_base {
+		graph [bb="326,91,542,274",
+			compound=True,
+			label=mobile_base,
+			lheight=0.21,
+			lp="434,262.5",
+			lwidth=0.97,
+			rank=same,
+			rankdir=LR,
+			ranksep=0.2,
+			style=bold
+		];
+		t__mobile_base_sensors_core		 [URL=topic_3A_mobile_base_sensors_core,
+			height=0.5,
+			label="/mobile_base/sensors/core",
+			pos="434,225",
+			shape=box,
+			width=2.2222];
+		t__mobile_base_commands_velocity		 [URL=topic_3A_mobile_base_commands_velocity,
+			height=0.5,
+			label="/mobile_base/commands/velocity",
+			pos="434,171",
+			shape=box,
+			width=2.7778];
+		n__mobile_base		 [URL=_mobile_base,
+			height=0.5,
+			label="/mobile_base",
+			pos="434,117",
+			shape=ellipse,
+			width=1.6068];
+	}
+	subgraph cluster_capability_server {
+		graph [bb="71,913,516,988",
+			compound=True,
+			label=capability_server,
+			lheight=0.21,
+			lp="293.5,976.5",
+			lwidth=1.31,
+			rank=same,
+			rankdir=LR,
+			ranksep=0.2,
+			style=bold
+		];
+		t__capability_server_events		 [URL=topic_3A_capability_server_events,
+			height=0.5,
+			label="/capability_server/events",
+			pos="155,939",
+			shape=box,
+			width=2.1111];
+		n__capability_server		 [URL=_capability_server,
+			height=0.5,
+			label="/capability_server",
+			pos="434,939",
+			shape=ellipse,
+			width=2.0401];
+		t__capability_server_events -> n__capability_server		 [penwidth=1,
+			pos="e,364.33,933.08 231.33,932.92 269.42,932.05 315.62,932.03 354.18,932.84"];
+		n__capability_server -> t__capability_server_events		 [penwidth=1,
+			pos="e,231.33,945.08 364.33,944.92 327.17,945.89 280.94,946.01 241.47,945.29"];
+	}
+	subgraph cluster_move_base_simple {
+		graph [bb="575,884,743,959",
+			compound=True,
+			label=move_base_simple,
+			lheight=0.21,
+			lp="659,947.5",
+			lwidth=1.47,
+			rank=same,
+			rankdir=LR,
+			ranksep=0.2,
+			style=bold
+		];
+		t__move_base_simple_goal		 [URL=topic_3A_move_base_simple_goal,
+			height=0.5,
+			label="/move_base_simple/goal",
+			pos="659,910",
+			shape=box,
+			width=2.1111];
+	}
+	subgraph cluster_move_base {
+		graph [bb="574,967,922,1042",
+			compound=True,
+			label=move_base,
+			lheight=0.21,
+			lp="748,1030.5",
+			lwidth=0.86,
+			rank=same,
+			rankdir=LR,
+			ranksep=0.2,
+			style=bold
+		];
+		n__move_base_action_topics		 [URL=topic_3Amove_base_action_topics,
+			height=0.5,
+			label="move_base/action_topics",
+			pos="659,993",
+			shape=box,
+			width=2.1389];
+		n__move_base		 [URL=_move_base,
+			height=0.5,
+			label="/move_base",
+			pos="860,993",
+			shape=ellipse,
+			width=1.4804];
+		n__move_base_action_topics -> n__move_base		 [penwidth=1,
+			pos="e,809.41,987.07 736.09,986.42 757.01,986.11 779.41,986.22 799.27,986.75"];
+		n__move_base -> n__move_base_action_topics		 [penwidth=1,
+			pos="e,736.09,999.58 809.41,998.93 790.29,999.62 767.85,999.87 746.26,999.7"];
+	}
+	subgraph cluster_rplidarNode {
+		graph [bb="370,830,498,905",
+			compound=True,
+			label=rplidarNode,
+			lheight=0.21,
+			lp="434,893.5",
+			lwidth=0.92,
+			rank=same,
+			rankdir=LR,
+			ranksep=0.2,
+			style=bold
+		];
+		n__rplidarNode		 [URL=_rplidarNode,
+			height=0.5,
+			label="/rplidarNode",
+			pos="434,856",
+			shape=ellipse,
+			width=1.5526];
+	}
+	subgraph cluster_cmd_vel_mux {
+		graph [bb="361,365,507,440",
+			compound=True,
+			label=cmd_vel_mux,
+			lheight=0.21,
+			lp="434,428.5",
+			lwidth=1.10,
+			rank=same,
+			rankdir=LR,
+			ranksep=0.2,
+			style=bold
+		];
+		n__cmd_vel_mux		 [URL=_cmd_vel_mux,
+			height=0.5,
+			label="/cmd_vel_mux",
+			pos="434,391",
+			shape=ellipse,
+			width=1.7873];
+	}
+	subgraph cluster_robot_state_publisher {
+		graph [bb="337,722,531,797",
+			compound=True,
+			label=robot_state_publisher,
+			lheight=0.21,
+			lp="434,785.5",
+			lwidth=1.64,
+			rank=same,
+			rankdir=LR,
+			ranksep=0.2,
+			style=bold
+		];
+		n__robot_state_publisher		 [URL=_robot_state_publisher,
+			height=0.5,
+			label="/robot_state_publisher",
+			pos="434,748",
+			shape=ellipse,
+			width=2.4734];
+	}
+	subgraph cluster_capability_server_nodelet_manager {
+		graph [bb="8,996,302,1071",
+			compound=True,
+			label=capability_server_nodelet_manager,
+			lheight=0.21,
+			lp="155,1059.5",
+			lwidth=2.69,
+			rank=same,
+			rankdir=LR,
+			ranksep=0.2,
+			style=bold
+		];
+		n__capability_server_nodelet_manager		 [URL=_capability_server_nodelet_manager,
+			height=0.5,
+			label="/capability_server_nodelet_manager",
+			pos="155,1022",
+			shape=ellipse,
+			width=3.8635];
+	}
+	subgraph cluster_bumper2pointcloud {
+		graph [bb="343,282,525,357",
+			compound=True,
+			label=bumper2pointcloud,
+			lheight=0.21,
+			lp="434,345.5",
+			lwidth=1.49,
+			rank=same,
+			rankdir=LR,
+			ranksep=0.2,
+			style=bold
+		];
+		n__bumper2pointcloud		 [URL=_bumper2pointcloud,
+			height=0.5,
+			label="/bumper2pointcloud",
+			pos="434,308",
+			shape=ellipse,
+			width=2.2929];
+	}
+	subgraph cluster_slam_gmapping {
+		graph [bb="782,722,938,797",
+			compound=True,
+			label=slam_gmapping,
+			lheight=0.21,
+			lp="860,785.5",
+			lwidth=1.22,
+			rank=same,
+			rankdir=LR,
+			ranksep=0.2,
+			style=bold
+		];
+		n__slam_gmapping		 [URL=_slam_gmapping,
+			height=0.5,
+			label="/slam_gmapping",
+			pos="860,748",
+			shape=ellipse,
+			width=1.9498];
+	}
+	subgraph cluster_zeroconf {
+		graph [bb="69,1079,241,1154",
+			compound=True,
+			label=zeroconf,
+			lheight=0.21,
+			lp="155,1142.5",
+			lwidth=0.67,
+			rank=same,
+			rankdir=LR,
+			ranksep=0.2,
+			style=bold
+		];
+		n__zeroconf_zeroconf		 [URL=_zeroconf_zeroconf,
+			height=0.5,
+			label="/zeroconf/zeroconf",
+			pos="155,1105",
+			shape=ellipse,
+			width=2.1484];
+	}
+	subgraph cluster_interactions {
+		graph [bb="597,8,721,83",
+			compound=True,
+			label=interactions,
+			lheight=0.21,
+			lp="659,71.5",
+			lwidth=0.89,
+			rank=same,
+			rankdir=LR,
+			ranksep=0.2,
+			style=bold
+		];
+		n__interactions		 [URL=_interactions,
+			height=0.5,
+			label="/interactions",
+			pos="659,34",
+			shape=ellipse,
+			width=1.4985];
+	}
+	subgraph cluster_master {
+		graph [bb="110,1162,200,1237",
+			compound=True,
+			label=master,
+			lheight=0.21,
+			lp="155,1225.5",
+			lwidth=0.51,
+			rank=same,
+			rankdir=LR,
+			ranksep=0.2,
+			style=bold
+		];
+		n__master		 [URL=_master,
+			height=0.5,
+			label="/master",
+			pos="155,1188",
+			shape=ellipse,
+			width=1.0291];
+	}
+	subgraph cluster_turtlebot_laptop_battery {
+		graph [bb="328,531,540,606",
+			compound=True,
+			label=turtlebot_laptop_battery,
+			lheight=0.21,
+			lp="434,594.5",
+			lwidth=1.82,
+			rank=same,
+			rankdir=LR,
+			ranksep=0.2,
+			style=bold
+		];
+		n__turtlebot_laptop_battery		 [URL=_turtlebot_laptop_battery,
+			height=0.5,
+			label="/turtlebot_laptop_battery",
+			pos="434,557",
+			shape=ellipse,
+			width=2.7261];
+	}
+	subgraph cluster_turtlebot_teleop_joystick {
+		graph [bb="751,364,969,439",
+			compound=True,
+			label=turtlebot_teleop_joystick,
+			lheight=0.21,
+			lp="860,427.5",
+			lwidth=1.89,
+			rank=same,
+			rankdir=LR,
+			ranksep=0.2,
+			style=bold
+		];
+		n__turtlebot_teleop_joystick		 [URL=_turtlebot_teleop_joystick,
+			height=0.5,
+			label="/turtlebot_teleop_joystick",
+			pos="860,390",
+			shape=ellipse,
+			width=2.7984];
+	}
+	subgraph cluster_joystick {
+		graph [bb="385,448,483,523",
+			compound=True,
+			label=joystick,
+			lheight=0.21,
+			lp="434,511.5",
+			lwidth=0.60,
+			rank=same,
+			rankdir=LR,
+			ranksep=0.2,
+			style=bold
+		];
+		n__joystick		 [URL=_joystick,
+			height=0.5,
+			label="/joystick",
+			pos="434,474",
+			shape=ellipse,
+			width=1.1374];
+	}
+	subgraph cluster_app_manager {
+		graph [bb="86,8,224,83",
+			compound=True,
+			label=app_manager,
+			lheight=0.21,
+			lp="155,71.5",
+			lwidth=1.03,
+			rank=same,
+			rankdir=LR,
+			ranksep=0.2,
+			style=bold
+		];
+		n__app_manager		 [URL=_app_manager,
+			height=0.5,
+			label="/app_manager",
+			pos="155,34",
+			shape=ellipse,
+			width=1.6971];
+	}
+	subgraph cluster_diagnostic_aggregator {
+		graph [bb="761,447,959,522",
+			compound=True,
+			label=diagnostic_aggregator,
+			lheight=0.21,
+			lp="860,510.5",
+			lwidth=1.68,
+			rank=same,
+			rankdir=LR,
+			ranksep=0.2,
+			style=bold
+		];
+		n__diagnostic_aggregator		 [URL=_diagnostic_aggregator,
+			height=0.5,
+			label="/diagnostic_aggregator",
+			pos="860,473",
+			shape=ellipse,
+			width=2.5276];
+	}
+	t__turtle2_status -> n__interactions	 [penwidth=1,
+		pos="e,605,34 479.06,34 512.12,34 557.87,34 594.83,34"];
+	t__cmd_vel	 [URL=topic_3A_cmd_vel,
+		height=0.5,
+		label="/cmd_vel",
+		pos="1011,540",
+		shape=box,
+		width=0.94444];
+	t__cmd_vel -> n__mobile_base_nodelet_manager	 [penwidth=1,
+		pos="e,536.86,629.84 976.74,539.08 880.01,536.72 603.76,532.4 574,559 556.89,574.29 581.65,593.22 566,610 560.17,616.25 553.32,621.33 545.86,625.44"];
+	t__odom	 [URL=topic_3A_odom,
+		height=0.5,
+		label="/odom",
+		pos="659,640",
+		shape=box,
+		width=0.75];
+	t__odom -> n__move_base	 [penwidth=1,
+		pos="e,845.44,975.45 686.1,641.07 705.06,643.35 729.66,649.73 743,667 752.12,678.8 746.79,786.69 751,801 769.95,865.44 813.72,931.82 839.35,967.16"];
+	t__mobile_base_nodelet_manager_bond -> n__mobile_base	 [penwidth=1,
+		pos="e,381.79,124.85 155.6,621.71 155.44,549.71 165.9,285.35 310,153 326.69,137.67 350.02,130.33 371.88,126.42"];
+	t__mobile_base_nodelet_manager_bond -> n__cmd_vel_mux	 [penwidth=1,
+		pos="e,402.2,406.68 169.18,621.8 192.69,585.06 245.52,502.61 310,453 334.76,433.95 367.4,420.3 392.84,410.33"];
+	t__mobile_base_nodelet_manager_bond -> n__bumper2pointcloud	 [penwidth=1,
+		pos="e,396.94,324.14 162.86,621.89 179.67,574.1 227.63,444.71 310,370 331.82,350.21 362.16,337.03 387.25,327.67"];
+	n__mobile_base_nodelet_manager -> t__odom	 [penwidth=1,
+		pos="e,631.88,640 557.59,640 581,640 603.75,640 621.66,640"];
+	t__joint_states	 [URL=topic_3A_joint_states,
+		height=0.5,
+		label="/joint_states",
+		pos="659,748",
+		shape=box,
+		width=1.1389];
+	n__mobile_base_nodelet_manager -> t__joint_states	 [penwidth=1,
+		pos="e,617.6,736.96 461.25,657.62 488.54,675.37 532.93,702.69 574,721 584.71,725.78 596.53,730.11 607.84,733.84"];
+	t__tf	 [URL=topic_3A_tf,
+		height=0.5,
+		label="/tf",
+		pos="659,694",
+		shape=box,
+		width=0.75];
+	n__mobile_base_nodelet_manager -> t__tf	 [penwidth=1,
+		pos="e,631.8,687.66 498.6,655.4 538.62,665.09 588.8,677.24 622.05,685.3"];
+	n__mobile_base_nodelet_manager -> t__mobile_base_sensors_core	 [penwidth=1,
+		pos="e,354,239.51 328.89,630.4 317.46,624.02 308.89,614.63 306,601 302.38,583.94 302.38,304.06 306,287 310.36,266.46 325.94,252.73 344.82,243.54"];
+	n__mobile_base_nodelet_manager -> t__mobile_base_commands_velocity	 [penwidth=1,
+		pos="e,333.87,175.75 328.89,630.4 317.46,624.02 308.89,614.63 306,601 301.46,579.59 301.46,228.41 306,207 308.54,195.04 315.51,186.48 324.97,180.44"];
+	t__diagnostics	 [URL=topic_3A_diagnostics,
+		height=0.5,
+		label="/diagnostics",
+		pos="659,484",
+		shape=box,
+		width=1.125];
+	n__mobile_base_nodelet_manager -> t__diagnostics	 [penwidth=1,
+		pos="e,618.4,494.45 537.69,630.16 548.42,625.39 558.23,618.86 566,610 578.37,595.91 563.4,541.46 574,526 582.47,513.65 595.66,504.76 609.11,498.43"];
+	t__joint_states -> n__robot_state_publisher	 [penwidth=1,
+		pos="e,523.14,748 617.83,748 594.13,748 563.01,748 533.19,748"];
+	t__tf -> n__move_base	 [penwidth=1,
+		pos="e,845.9,975.62 686.29,695.27 705.1,697.68 729.41,704.12 743,721 754.21,734.92 745.62,783.96 751,801 771.29,865.21 814.76,931.92 839.93,967.32"];
+	t__tf -> n__slam_gmapping	 [penwidth=1,
+		pos="e,800.33,738.3 686.02,705.79 712.4,714.81 754.37,726.77 790.35,735.83"];
+	t__map	 [URL=topic_3A_map,
+		height=0.5,
+		label="/map",
+		pos="659,586",
+		shape=box,
+		width=0.75];
+	t__map -> n__move_base	 [penwidth=1,
+		pos="e,845.33,975.49 686.18,587 705.19,589.25 729.8,595.62 743,613 755.64,629.65 745.27,780.89 751,801 769.4,865.6 813.38,931.92 839.18,967.2"];
+	t__mobile_base_sensors_core -> n__mobile_base_nodelet_manager	 [penwidth=1,
+		pos="e,328.89,630.4 354,239.51 331.16,248.55 311.05,263.21 306,287 302.38,304.06 302.38,583.94 306,601 308.12,611.01 313.31,618.73 320.44,624.66"];
+	t__mobile_base_commands_velocity -> n__mobile_base_nodelet_manager	 [penwidth=1,
+		pos="e,328.89,630.4 333.87,175.75 319.97,181.76 309.28,191.53 306,207 301.46,228.41 301.46,579.59 306,601 308.12,611.01 313.31,618.73 320.44,624.66"];
+	n__mobile_base -> t__mobile_base_nodelet_manager_bond	 [penwidth=1,
+		pos="e,155.64,621.63 382.71,108.63 358.03,110.1 329.48,117.11 310,135 167.67,265.73 155.72,525.23 155.6,611.53"];
+	t__tf_static	 [URL=topic_3A_tf_static,
+		height=0.5,
+		label="/tf_static",
+		pos="659,802",
+		shape=box,
+		width=0.88889];
+	t__tf_static -> n__move_base	 [penwidth=1,
+		pos="e,851.11,975.08 691.38,807.24 707.93,811.17 727.87,817.86 743,829 792.41,865.39 828.7,929.24 846.56,965.6"];
+	t__tf_static -> n__slam_gmapping	 [penwidth=1,
+		pos="e,811.08,761 691.09,793.56 720.47,785.59 765.27,773.44 801.2,763.68"];
+	t__diagnostics -> n__diagnostic_aggregator	 [penwidth=1,
+		pos="e,771.98,477.81 699.79,481.8 717.79,480.81 739.93,479.58 761.91,478.37"];
+	t__joy	 [URL=topic_3A_joy,
+		height=0.5,
+		label="/joy",
+		pos="659,415",
+		shape=box,
+		width=0.75];
+	t__joy -> n__turtlebot_teleop_joystick	 [penwidth=1,
+		pos="e,777,400.3 686.02,411.73 706.84,409.12 737.37,405.28 767,401.56"];
+	t__scan	 [URL=topic_3A_scan,
+		height=0.5,
+		label="/scan",
+		pos="659,856",
+		shape=box,
+		width=0.75];
+	t__scan -> n__move_base	 [penwidth=1,
+		pos="e,845.64,975.35 686.37,860.19 703.37,863.7 725.5,869.82 743,880 782.25,902.83 818.15,941.84 839.3,967.52"];
+	t__scan -> n__slam_gmapping	 [penwidth=1,
+		pos="e,838.39,765.24 686.2,849.62 702.94,845.02 724.82,838.05 743,829 774.92,813.1 807.94,789.19 830.55,771.46"];
+	t__move_base_simple_goal -> n__move_base	 [penwidth=1,
+		pos="e,825.76,979.14 703.18,928.01 736.68,941.98 782.88,961.25 816.27,975.18"];
+	n__move_base -> t__cmd_vel	 [penwidth=1,
+		pos="e,1009.4,558.26 873.72,975.5 896.72,942.92 945.05,870.01 969,801 997.25,719.62 1006.1,617.18 1008.8,568.38"];
+	n__rplidarNode -> t__scan	 [penwidth=1,
+		pos="e,631.77,856 490.12,856 531.03,856 585.68,856 621.35,856"];
+	n__cmd_vel_mux -> t__mobile_base_nodelet_manager_bond	 [penwidth=1,
+		pos="e,163.53,621.83 377.78,399.76 355.37,407.64 330.09,419.54 310,435 244.64,485.3 191.24,569.34 168.22,612.71"];
+	n__robot_state_publisher -> t__tf	 [penwidth=1,
+		pos="e,631.9,700.32 491.85,734.23 532.84,724.31 586.92,711.21 622.07,702.7"];
+	n__robot_state_publisher -> t__tf_static	 [penwidth=1,
+		pos="e,626.72,794.42 491.85,761.77 530.84,771.21 581.68,783.52 616.8,792.02"];
+	n__bumper2pointcloud -> t__mobile_base_nodelet_manager_bond	 [penwidth=1,
+		pos="e,160.19,621.91 367.02,318.62 347.07,326.27 326.19,337.32 310,352 227.82,426.53 179.9,555.48 162.99,612.19"];
+	n__slam_gmapping -> t__tf	 [penwidth=1,
+		pos="e,686.02,696.33 822.5,732.73 786.52,721.11 731.86,706.29 696.04,698.44"];
+	n__slam_gmapping -> t__map	 [penwidth=1,
+		pos="e,686.31,590.7 848.16,729.92 829.97,701.08 790.57,644.7 743,613 728.93,603.63 711.36,597.3 696.01,593.13"];
+	n__turtlebot_laptop_battery -> t__diagnostics	 [penwidth=1,
+		pos="e,623.77,502.12 503.42,544.21 523.81,539.63 546.03,533.87 566,527 582.29,521.4 599.55,513.81 614.67,506.56"];
+	n__turtlebot_teleop_joystick -> t__cmd_vel	 [penwidth=1,
+		pos="e,1006.4,521.79 910.64,405.65 930.86,414.06 953.15,426.23 969,443 987.24,462.3 997.98,490.92 1003.9,512.07"];
+	n__joystick -> t__diagnostics	 [penwidth=1,
+		pos="e,618.48,482.23 474.87,475.79 512.21,477.46 568.13,479.97 608.35,481.77"];
+	n__joystick -> t__joy	 [penwidth=1,
+		pos="e,631.99,423.81 471.34,466.5 497.74,460.85 534.25,452.62 566,444 584.78,438.9 605.46,432.45 622.46,426.94"];
+	n__app_manager -> t__turtle2_status	 [penwidth=1,
+		pos="e,388.89,34 216.1,34 264.48,34 331.87,34 378.65,34"];
+}

@@ -1,0 +1,24 @@
+\tocdepth@munge 
+\contentsline {section}{\numberline {}Contents}{2}{section*.1}
+\tocdepth@restore 
+\contentsline {section}{\numberline {I}Robotic Arm field}{3}{section*.2}
+\contentsline {section}{\numberline {II}PhantomX Pincher Robot Arm Overview}{3}{section*.3}
+\contentsline {subsection}{\numberline {A}Context}{3}{section*.4}
+\contentsline {subsection}{\numberline {B}Specifications}{4}{section*.5}
+\contentsline {subsection}{\numberline {C}Aim}{5}{section*.6}
+\contentsline {subsection}{\numberline {D}Our opinion}{5}{section*.7}
+\contentsline {section}{\numberline {III}'Robot-Kit'}{5}{section*.8}
+\contentsline {subsection}{\numberline {A}Arm design}{5}{section*.9}
+\contentsline {subsection}{\numberline {B}Kit Overview}{6}{section*.10}
+\contentsline {subsection}{\numberline {C}Kit Overview}{7}{section*.11}
+\contentsline {subsection}{\numberline {D}How to?}{7}{section*.12}
+\contentsline {subsubsection}{\numberline {1}Defining the working environment}{7}{section*.13}
+\contentsline {subsubsection}{\numberline {2}Performing the preliminary tasks}{8}{section*.14}
+\contentsline {subsubsection}{\numberline {3}Software installation}{8}{section*.15}
+\contentsline {subsubsection}{\numberline {4}Assembly}{9}{section*.16}
+\contentsline {subsubsection}{\numberline {5}Debugging using Arduino}{11}{section*.17}
+\contentsline {subsection}{\numberline {E}Challenges encountered}{12}{section*.18}
+\contentsline {section}{\numberline {IV}ROSification}{12}{section*.19}
+\contentsline {section}{\numberline {V}Future plan}{12}{section*.20}
+\contentsline {section}{\numberline {VI}Conclusion}{13}{section*.21}
+\contentsline {section}{\numberline {VII}Bibliography}{13}{section*.22}
