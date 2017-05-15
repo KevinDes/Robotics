@@ -19,7 +19,7 @@ Indeed, thanks to these, each of the movements realized until then can be easily
 <p>
 In the src / project file there are several subfolders. An important first is the one containing the Launchfiles. 
 Indeed, we will find there the files thanks to which we will be able to call the scripts 
-(which are in the file of the same name) that are written in Python language with the row $ roslaunch package_name file.launch. 
+(which are in the file of the same name) that are written in Python language with the line $ roslaunch package_name file.launch. 
 Once Launchfile is launched, the corresponding script will be used for the robot's movement.
 </p>
 
