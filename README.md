@@ -15,7 +15,7 @@ The bag folder contains all the bagfiles necessary for the proper functioning of
 Indeed, thanks to these, each of the movements realized until then can be easily reengaged.
 </p>
 
-<h2>The project file with Launch files and Scripts)</h2>
+<h2>The project file (with Launch files and Scripts)</h2>
 <p>
 In the src / project file there are several subfolders. An important first is the one containing the Launchfiles. 
 Indeed, we will find there the files thanks to which we will be able to call the scripts 
